@@ -1,0 +1,29 @@
+.addtodo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+
+  &__title {
+    font-size: 26px;
+    font-weight: 800px;
+    margin-bottom: 15px;
+  }
+
+  &__content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    input {
+      width: 60%;
+      padding: 9px;
+      border: 2px solid green;
+    }
+    button {
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+    }
+  }
+}

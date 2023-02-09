@@ -1,0 +1,35 @@
+.header {
+  width: 100%;
+  min-height: 60px;
+  border-bottom: 1px solid rgb(187, 182, 182);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+
+    &-logo {
+      img {
+        max-width: 90px;
+        object-fit: cover;
+        border-radius: 55%;
+      }
+    }
+
+    &-btn {
+      display: flex;
+      gap: 15px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    &__content {
+      flex-direction: column;
+    }
+  }
+}

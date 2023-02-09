@@ -1,0 +1,44 @@
+.btn {
+  color: white;
+  background: inherit;
+  border: 1px solid #ccc;
+  padding: 3px 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: 'Bad Script', cursive;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: rgb(9, 144, 27);
+  border: inherit;
+  transition: all 0.2s linear;
+
+  &:hover {
+    background: rgb(12, 116, 21);
+  }
+}
+
+.btn-outline {
+  background: inherit;
+  border: 1px solid #ccc;
+  transition: all 0.2s linear;
+
+  &:hover {
+    background: white;
+    color: black;
+  }
+}
+
+.btn-red {
+  background: red;
+  border: 1px solid #ccc;
+  transition: all 0.2s linear;
+
+  &:hover {
+    background: rgb(163, 5, 5);
+    color: rgb(255, 255, 255);
+  }
+}
